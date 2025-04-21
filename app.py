@@ -9,7 +9,7 @@ import io
 load_dotenv()
 
 # Configure Generative AI with API key
-api_key = os.getenv("GOOGLE-API-KEY")
+api_key = "AIzaSyC_8l3yyOWugVw2B7JmUAkmyvy6bSNhsUs"
 if not api_key:
     st.error("❌ API key not found. Please set GOOGLE-API-KEY in your environment.")
     st.stop()
